@@ -1,0 +1,42 @@
+\begin[class=book,papersize=a4]{document}
+\script[src=packages/image]
+\include[src=documentation/macros.xml]
+\font[family=EB Garamond,size=16pt]%
+\set[parameter=document.parskip,value=12pt]
+\define[command=beow]{\font[family= Beowulf1,size=18pt,language=en]}
+\define[command=bodytext]{\font[family= EB Garamond,size=16pt,language=en]}
+
+\chapter{The Anglo-Saxon Chronicle}
+\beow
+\img[src=/home/stefan/sile-stuff/brittene.png,height=55mm]
+
+Brittene igland is ehta hund mile lang. & twa hund brad. & her sind on þis
+iglande ﬁf geþeode englisc. & brittisc. & wilsc. & scyttisc. & pyhtisc. &
+bocleden. Erest weron bugend þises landes brittes. þa coman of armenia. &
+gesætan su#ewearde bryttene ærost. þa gelamp hit $ pyhtas coman suþan of
+scithian. mid langum scipum na manegum.
+
+\bodytext
+
+The island of Britain is eight hundred miles long and two hundred miles
+broad: And here in this island are five tongues; English, British, Pictish,
+and Latin. They came from Armenia and first settled in the south of Britain.
+Then befell it that the Picts came from the south of Scythia with long ships.
+
+
+
+
+
+\note{The image is taken from: Chronicles and Memorials of Great Britain and Ireland
+during the Middle Ages: The Anglo-Saxon Chronicle, edited by Benjamin Thorpe,
+London, Longman, Green, Longman, and Roberts, 1861. Digitized by Google.
+
+The translation is taken from: The Anglo-Saxon Chronicle, edited by J. A. Giles D C. L.
+G. Bell and Sons, Ltd. 1914 (https://archive.org/details/anglosaxonchroni00gile)
+
+The font is Beowulf 1, compiled by Peter S. Baker (http://www.fontspace.com/peter-s-baker/old-english-fonts).
+}
+
+
+\end{document}
+
